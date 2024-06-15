@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가위바위보</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .wrap{          
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;   
+    }
+    button{
+      margin-right: 10px;
+      width: 100px;
+      height: 100px;
+      border-radius: 30px;
+      font-size: 30px;
+      color: white
+    }
+    .btn1{
+      background-color: red;
+      
+    }
+    .btn2{
+      background-color: green;
+    }
+    .btn3{
+      background-color: blue;
+    }
+    .text{
+      margin-top: 30px;
+    }
+    .computerchoice{
+      font-size: 30px;
+      margin: 10px;  
+      display: flex;
+    }
+    .yourchoice{
+      font-size: 30px;    
+      display: flex;
+      margin: 30px;
+    }
+    .computerchoice h3{
+      margin-right: 20px;
+    }
+    .yourchoice h3{
+      margin-right: 20px;      
+    }
+    .back{
+      margin-top: 10px;
+      width: 200px;
+      height: 100px;
+      
+    }
+    .back a {
+      color: black;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="computerchoice">
+      <h3>컴퓨터선택</h3>
+      <p>??</p>
+    </div>
+    <div class="yourchoice">
+      <h3>너의 선택</h3>
+      <p>??</p>
+    </div>
+    <div class="buttons">
+      <button class="btn1">가위</button>
+      <button class="btn2">바위</button>
+      <button class="btn3">보</button>
+    </div>
+    <div class="whowin">
+      <h1></h1>
+    </div>
+    <button class="back"><a href="./index.html">되돌아가기</a></button>
+
+
+  </div>
+
+  <script src="./js/rsp.js"></script>
+</body>
+</html>
