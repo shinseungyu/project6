@@ -1,0 +1,49 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+
+}
+h1 {
+  color: #007bff;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+a{
+  color: white;
+}
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  text-align: center;
+  margin: 15px;
+  
+}
+
+p#message {
+  margin-top: 20px;
+  font-size: 18px;
+}
